@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="0.950" />
 
     <TextView
-        android:id="@+id/lblMarcadorRealMadrid"
+        android:id="@+id/lblMEquipo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
@@ -63,7 +63,7 @@
         app:layout_constraintVertical_bias="0.050" />
 
     <TextView
-        android:id="@+id/lblMarcadorBarcelona"
+        android:id="@+id/lblMEquipo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
