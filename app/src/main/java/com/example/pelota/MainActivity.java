@@ -106,4 +106,23 @@ public class MainActivity extends AppCompatActivity {
                 sensorManager.SENSOR_DELAY_FASTEST
         );
     }
+    private void punto(){
+        bola.setX(540);
+        bola.setY(888);
+    }
+    @Override
+    protected void onStart(){
+        super.onStart();
+    }
+    @Override
+    protected void onPause(){
+        sensorManager.unregisterListener(sensorEventListener);
+        super.onPause();
+    }
+    @Override
+    protected void onResume(){
+        sensorManager.registerListener(sensorEventListener,sensor,sensorManager.SENSOR_DELAY_FASTEST);
+        super.onResume();
+        punto();
+    }
 }
