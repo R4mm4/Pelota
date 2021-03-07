@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pelota</string>
+    <string name="todo">TODO</string>
+    <string name="Real_Madrid">Equipo 1:</string>
+    <string name="Barcelona">Equipo 2:</string>
+    <string name="_0">0</string>
+</resources>
